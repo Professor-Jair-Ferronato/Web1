@@ -1,4 +1,16 @@
 <?php
+/*
+ * AULA 4 - Tópico 2: Estruturas de Controle - Switch e Laços de Repetição
+ * -------------------------------------------------------------------------
+ * SWITCH: alternativa ao if/elseif quando comparamos uma variável a vários valores.
+ *  - Cada caso usa case; o break impede a execução dos casos seguintes.
+ *  - O default é executado quando nenhum case for satisfeito.
+ *
+ * LAÇOS DE REPETIÇÃO:
+ *  - for      : usado quando se sabe o número de repetições (inicio; condição; incremento).
+ *  - while    : repete enquanto a condição for verdadeira; verifica ANTES de executar.
+ *  - do/while : garante ao menos UMA execução; verifica a condição DEPOIS.
+ */
     $dia = 9;
     switch($dia){
         case 1:

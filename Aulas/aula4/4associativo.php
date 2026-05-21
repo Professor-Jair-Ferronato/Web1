@@ -1,4 +1,15 @@
 <?php
+/*
+ * AULA 4 - Tópico 4: Arrays Associativos e Multidimensionais
+ * ------------------------------------------------------------
+ * ARRAY ASSOCIATIVO: usa chaves nomeadas (strings) em vez de índices numéricos.
+ *  - Sintaxe: ["chave" => "valor", ...]
+ *  - Acesso: $pessoa1['nome']
+ *
+ * ARRAY MULTIDIMENSIONAL: array que contém outros arrays como elementos.
+ *  - Permite representar tabelas de dados (linhas e colunas).
+ *  - Para percorrer, usamos foreach aninhado: um para as linhas e outro para as colunas.
+ */
     $pessoa1 = ["nome" => "Maria","idade" => 28];
     echo "Nome: " . $pessoa1['nome'] ."<BR>" . "Idade: " . $pessoa1['idade'] . "<BR>";
 

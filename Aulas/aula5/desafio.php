@@ -1,4 +1,16 @@
 <?php
+/*
+ * AULA 5 - Desafio: Array Multidimensional com Cálculo de Média
+ * ---------------------------------------------------------------
+ * Neste desafio trabalhamos com um array multidimensional onde cada aluno
+ * possui um nome e um sub-array de notas.
+ * O objetivo é percorrer todos os alunos, somar suas notas e calcular a média.
+ * Conceitos aplicados:
+ *  - Array multidimensional (array dentro de array)
+ *  - foreach aninhado para percorrer linhas e notas
+ *  - Acumulador ($soma) para somar os valores de cada iteração
+ *  - Cálculo de média aritmética: soma dividida pela quantidade de notas
+ */
     $alunos = [
         ["nome" => "Ana", "notas" => 
         [8,6,8,5]],
