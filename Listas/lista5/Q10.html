@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Validador de Cupom</title>
+</head>
+<body>
+    <h2>Finalizar Compra</h2>
+    <form action="cupom.php" method="post">
+        <label for="valor_da_compra">Valor Total (R$):</label>
+        <input type="number" name="valor_da_compra" id="valor_da_compra" step="0.01" required><br><br>
+
+        <label for="cupom">Cupom de Desconto:</label>
+        <input type="text" name="cupom" id="cupom"><br><br>
+
+        <button type="submit">Aplicar Cupom</button>
+    </form>
+</body>
+</html>
